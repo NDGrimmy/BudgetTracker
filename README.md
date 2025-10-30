@@ -30,7 +30,7 @@ The goal is to create a developer-ready, production-style finance tracker that h
 ## Tech Stack
 
 ### Backend
-- **Language:** Python 3.12+
+- **Language:** Python 3.13
 - **Framework:** FastAPI
 - **Package Manager:** [UV](https://github.com/astral-sh/uv)
 - **Database:** PostgreSQL

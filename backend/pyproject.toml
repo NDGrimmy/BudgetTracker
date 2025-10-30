@@ -1,0 +1,24 @@
+[project]
+name = "budgettracker-backend"
+version = "0.1.0"
+description = "BudgetTracker backend scaffold"
+readme = "README.md"
+requires-python = ">=3.11"
+
+[project.dependencies]
+fastapi = "^0.95.0"
+uvicorn = {extras = ["standard"], version = "^0.22.0"}
+sqlalchemy = "^2.0"
+psycopg2-binary = "^2.9"
+python-dotenv = "^1.0"
+redis = "^4.5"
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0",
+    "httpx>=0.24",
+    "pytest-asyncio>=0.21",
+]
+
+[tool]
+# Placeholder for tool-specific settings (uv etc.)
